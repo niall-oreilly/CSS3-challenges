@@ -33,11 +33,63 @@ table {
 /* basic layout -- 2 columns */
 .main {
 	float: left;
-	width: 580px;
+	margin-left: 5%;
+	width: 70%;
+	box-sizing:border-box;
+	padding-right: 30px;
+	padding-top: 20px;
 }
 .sidebar {
-	margin-left: 600px;
+	box-sizing:border-box;
+	float: right;
+	width: 20%;
+	margin-right: 5%;
 	padding: 15px;
 	background: #E9F5FE;
+	color: #C6A27F;
 }
 
+body{
+	padding-top: 150px;
+	background-color: #CDE6FF;
+	background-image: url(images/bg_body.png);
+	background-position: top center;
+	background-repeat: repeat-x;
+}
+
+.main p:first-of-type{
+	color: rgb(50,50,255);
+	font-family: sans-serif;
+	font-size: 18px;
+	padding-left: 0;
+}
+
+h1{
+	margin-left: 5%;
+	font-family: sans-serif;
+	font-size: 45px;
+	font-weight: 800;
+	color: #C6A27F;
+}
+
+.sidebar h2{
+	font-size: 45px;
+	font-weight: 400;
+	color: #99CCFF;
+}
+
+.main h2{
+	padding-left: 70px;
+	background-image: url(images/bullet_flower.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	line-height: 50px;
+	font-size: 35px;
+	border-bottom:white solid 2px;
+	color: goldenrod;
+}
+
+.main p{
+	padding-left: 70px;
+	margin:20px 0;
+}
